@@ -1,0 +1,11 @@
+apiVersion: swongpai.xyz/v1
+kind: annotations
+metadata:
+  name: test-add-annotations
+  namespace: openshift-compliance
+spec:
+  annotations:
+    - key: "swongpai.xyz/annotated"
+      value: "true"
+    - key: "swongpai-2"
+      value: "hello"
